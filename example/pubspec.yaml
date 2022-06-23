@@ -31,14 +31,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.5
-  my_package:
-    path: ../my_package
-  my_package_android:
-    path: ../my_package_android
-  my_package_ios:
-    path: ../my_package_ios
-  my_package_desktop:
-    path: ../my_package_desktop
+  my_package_flutter:
+    path: ../my_package_flutter
 
 dev_dependencies:
   flutter_test:

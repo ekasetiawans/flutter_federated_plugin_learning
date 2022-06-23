@@ -17,3 +17,15 @@ dev_dependencies:
   flutter_lints: ^2.0.1
 
 flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: my_package_android
+      ios:
+        default_package: my_package_ios
+      macos:
+        default_package: my_package_desktop
+      windows:
+        default_package: my_package_desktop
+      linux:
+        default_package: my_package_desktop
