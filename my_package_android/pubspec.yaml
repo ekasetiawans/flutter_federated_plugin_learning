@@ -11,8 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  my_package_interface:
-    path: ../my_package_interface
+  my_package:
+    path: ../my_package
 
 dev_dependencies:
   flutter_test:

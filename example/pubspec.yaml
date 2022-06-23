@@ -37,6 +37,8 @@ dependencies:
     path: ../my_package_android
   my_package_ios:
     path: ../my_package_ios
+  my_package_desktop:
+    path: ../my_package_desktop
 
 dev_dependencies:
   flutter_test:

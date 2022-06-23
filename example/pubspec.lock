@@ -116,10 +116,10 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
-  my_package_interface:
-    dependency: transitive
+  my_package_desktop:
+    dependency: "direct main"
     description:
-      path: "../my_package_interface"
+      path: "../my_package_desktop"
       relative: true
     source: path
     version: "0.0.1"
@@ -137,13 +137,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.1"
-  plugin_platform_interface:
-    dependency: transitive
-    description:
-      name: plugin_platform_interface
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.1.2"
   sky_engine:
     dependency: transitive
     description: flutter

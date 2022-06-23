@@ -1,4 +1,4 @@
-name: my_package_ios
+name: my_package_desktop
 description: A new Flutter package project.
 version: 0.0.1
 publish_to: none
@@ -23,5 +23,9 @@ flutter:
   plugin:
     implements: my_package
     platforms:
-      ios:
-        dartPluginClass: MyPackageIOS
+      macos:
+        dartPluginClass: MyPackageDesktop
+      windows:
+        dartPluginClass: MyPackageDesktop
+      linux:
+        dartPluginClass: MyPackageDesktop

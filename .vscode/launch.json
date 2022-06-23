@@ -1,0 +1,108 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "example",
+            "cwd": "example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example (profile mode)",
+            "cwd": "example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "example (release mode)",
+            "cwd": "example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "my_package",
+            "cwd": "my_package",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "my_package (profile mode)",
+            "cwd": "my_package",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "my_package (release mode)",
+            "cwd": "my_package",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "my_package_android",
+            "cwd": "my_package_android",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "my_package_android (profile mode)",
+            "cwd": "my_package_android",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "my_package_android (release mode)",
+            "cwd": "my_package_android",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "my_package_desktop",
+            "cwd": "my_package_desktop",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "my_package_desktop (profile mode)",
+            "cwd": "my_package_desktop",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "my_package_desktop (release mode)",
+            "cwd": "my_package_desktop",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "my_package_ios",
+            "cwd": "my_package_ios",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "my_package_ios (profile mode)",
+            "cwd": "my_package_ios",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "my_package_ios (release mode)",
+            "cwd": "my_package_ios",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

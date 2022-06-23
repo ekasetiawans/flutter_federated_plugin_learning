@@ -1,6 +1,14 @@
 library my_package;
 
-import 'package:my_package_interface/my_package_interface.dart';
+abstract class MyPackage {
+  static MyPackage instance = _MyPackageDummy();
 
-MyPackageInterface get _platform => MyPackageInterface.instance;
-int calculate(int x, int y) => _platform.calculate(x, y);
+  int calculate(int x, int y);
+}
+
+class _MyPackageDummy implements MyPackage {
+  @override
+  int calculate(int x, int y) {
+    throw UnimplementedError();
+  }
+}

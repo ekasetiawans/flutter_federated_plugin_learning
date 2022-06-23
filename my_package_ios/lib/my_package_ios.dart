@@ -1,10 +1,10 @@
 library my_package_ios;
 
-import 'package:my_package_interface/my_package_interface.dart';
+import 'package:my_package/my_package.dart';
 
-class MyPackageIOS extends MyPackageInterface {
+class MyPackageIOS extends MyPackage {
   static void registerWith() {
-    MyPackageInterface.instance = MyPackageIOS();
+    MyPackage.instance = MyPackageIOS();
   }
 
   @override

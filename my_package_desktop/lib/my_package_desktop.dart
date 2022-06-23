@@ -1,10 +1,10 @@
-library my_package_android;
+library my_package_desktop;
 
 import 'package:my_package/my_package.dart';
 
-class MyPackageAndroid extends MyPackage {
+class MyPackageDesktop extends MyPackage {
   static void registerWith() {
-    MyPackage.instance = MyPackageAndroid();
+    MyPackage.instance = MyPackageDesktop();
   }
 
   @override
